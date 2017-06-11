@@ -1,0 +1,96 @@
+input {
+	padding:0.3%;
+	font-size: 100%;
+    font-family: Verdana, Arial, Sans-Serif;
+	width: 50%;
+	border: 1px solid black;
+	background-color: #f2f2f2;
+	color:#666666;
+	border-radius: 10px; 
+	text-align: center;
+}
+
+button.Add {
+  padding: 0.5% 2%;
+  font-size: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ff8000;
+  background-color: #595959;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+button.Add:active {
+  background-color: #404040;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+button.Remove {
+	background: url('./assets/bin_image.jpg');
+	cursor: pointer;
+	width:30px;
+	height:30px;
+	background-size:cover;
+	margin-top: 5px;
+}
+
+button.Rating {
+	background: url('./assets/Empty_Star.jpg');
+	cursor: pointer;
+	width:30px;
+	height:30px;
+	background-size:cover;
+	margin-top: 5px;
+}
+
+button.Rated {
+	background: url('./assets/Rated_Star.jpg');
+	cursor: pointer;
+	width:30px;
+	height:30px;
+	background-size:cover;
+	margin-top: 5px;
+}
+
+ul {
+    font-size: 200%;
+    font-family: Verdana, Arial, Sans-Serif;
+	color:  #000000;
+	text-shadow: -2px 0 #ff8000, 0 2px #ff8000, 2px 0 #ff8000, 0 -2px #ff8000;
+	float:left;
+	margin-left: 20%;
+	background-color: rgba(242,242,242,0.6);
+	list-style-type:none;
+	padding-right:80px; 
+	size:auto;
+}
+
+select {
+	padding:0.3%;
+    font-size: 100%;
+    font-family: Verdana, Arial, Sans-Serif;
+	width: 10%;
+	border: 1px solid black;
+	background-color: #f2f2f2;
+	color:#333333;
+	border-radius: 10px; 
+	text-align: center;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('./assets/background_image.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+ .content {
+	float:right;
+	width:100%;
+	text-align: center;
+	margin-top:10%;
+ }

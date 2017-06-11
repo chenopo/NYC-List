@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Must See in NYC</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+
+    <div class="content">
+        <input type="text" name="recommendation" value="Type your recommendation here">
+        <select id="recommendation_Type">
+            <option class="Type" value="Pub" data-sort="1">Pub</option>
+            <option class="Type" value="Restaurant" data-sort="2">Restaurant</option>
+            <option class="Type" value="Dessert">Dessert</option>
+            <option class="Type" value="Entertainment">Entertainment</option>
+        </select>
+        <button class="Add">Add!</button><br/>
+    </div>
+    <button class="Clear">Clear</button>
+
+    <!-- <ul class="recommendations"></ul> -->
+        <ul class="Pub"></ul>
+        <ul class="Restaurant"></ul>
+        <ul class="Dessert"></ul>
+        <ul class="Entertainment"></ul>
+
+    <script type='text/javascript' src='script.js'></script>
+
+    </body>
+</html>
